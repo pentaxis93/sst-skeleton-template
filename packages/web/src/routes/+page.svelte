@@ -1,13 +1,18 @@
-<!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
+<script>
+	import galleryImage from '../assets/5th-avenue-gallery-by-ejgold.png?format=webp';
+</script>
 
-<div class="container h-full mx-auto flex justify-center items-center">
-	<div class="space-y-5">
-		<h1 class="h1">Let's get cracking bones!</h1>
-		<p>Start by exploring:</p>
-		<ul>
-			<li><code class="code">/src/routes/+layout.svelte</code> - barebones layout, the CSS import order is critical!</li>
-			<li><code class="code">/src/app.postcss</code> - minimal css to make the page full screen, may not be relevant for your project</li>
-			<li><code class="code">/src/routes/+page.svelte</code> - this page, you can replace the contents</li>
-		</ul>
-	</div>
+<svelte:head>
+	<title>5th Ave. Gallery</title>
+</svelte:head>
+
+<h1 class="h1">Hello 5th Ave. Gallery</h1>
+<img class="w-auto h-auto" src={galleryImage} alt="5th Ave. Gallery" />
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+<div class="flex justify-center">
+	<section>
+		<a class="btn variant-filled-tertiary" href="https://github.com/">GitHub</a>
+		<a class="btn variant-filled-primary" href="https://kit.svelte.dev/">SvelteKit</a>
+		<a class="btn variant-filled-secondary" href="https://tailwindcss.com/">Tailwind</a>
+	</section>
 </div>

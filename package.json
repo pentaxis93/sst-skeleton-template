@@ -12,11 +12,17 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "sst": "^2.19.1",
+    "@tsconfig/node16": "^16.1.0",
+    "@typescript-eslint/eslint-plugin": "^5.45.0",
+    "@typescript-eslint/parser": "^5.45.0",
     "aws-cdk-lib": "2.84.0",
     "constructs": "10.1.156",
-    "typescript": "^5.1.6",
-    "@tsconfig/node16": "^16.1.0"
+    "eslint": "^8.28.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.8.0",
+    "prettier-plugin-svelte": "^2.10.1",
+    "sst": "^2.19.1",
+    "typescript": "^5.1.6"
   },
   "workspaces": [
     "packages/*"
